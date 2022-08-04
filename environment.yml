@@ -1,0 +1,25 @@
+name: demo
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - bzip2=1.0.8=h0d85af4_4
+  - ca-certificates=2022.6.15=h033912b_0
+  - colorama=0.4.5=pyhd8ed1ab_0
+  - libffi=3.4.2=h0d85af4_5
+  - libzlib=1.2.12=hfe4f2af_2
+  - ncurses=6.3=h96cf925_1
+  - openssl=3.0.5=hb81d4ab_1
+  - pip=22.2.2=pyhd8ed1ab_0
+  - python=3.10.5=hdd68b96_0_cpython
+  - python_abi=3.10=2_cp310
+  - readline=8.1.2=h3899abd_0
+  - setuptools=63.3.0=py310h2ec42d9_0
+  - sqlite=3.39.2=hd9f0692_0
+  - tk=8.6.12=h5dbffcc_0
+  - tqdm=4.64.0=pyhd8ed1ab_0
+  - tzdata=2022a=h191b570_0
+  - wheel=0.37.1=pyhd8ed1ab_0
+  - xz=5.2.5=haf1e3a3_1
+  - zlib=1.2.12=hfe4f2af_2
+prefix: /Users/juliechen/miniconda3/envs/demo
