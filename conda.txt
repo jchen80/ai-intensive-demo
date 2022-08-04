@@ -1,0 +1,21 @@
+# Create a new conda environment
+conda create -n demo
+
+# Activate newly created environment
+conda activate demo
+
+# Manually install some packages (numpy, 
+conda install -c conda-forge tqdm
+conda install -c intel scikit-learn
+conda list
+
+# Export as environment.yml file and as requirements.txt file
+conda env export > environment.yml
+
+# Deactivate and create a new env from the exported .yml file
+conda deactivate
+
+# Create a different environment from the .yml file
+conda env create -f environment.yml --name from-yml
+conda activate from-yml
+conda list
